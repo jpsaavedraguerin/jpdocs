@@ -2,7 +2,9 @@
 
 ```pwsh
 #crear repositorio
-git clone <url> <local_dir>
+mkdir <nombre_directorio>   #crea un directorio
+cd <nombre_directorio>      #entra en el directorio
+git init                    #inicia un repositorio en el directorio actual
 
 #agregar archivos a stage area
 git add .
