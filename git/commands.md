@@ -1,3 +1,23 @@
+### Comandos repositorio local
+
+```pwsh
+#crear repositorio
+git clone <url> <local_dir>
+
+#agregar archivos a stage area
+git add .
+
+#crear commit
+git commit -m "Mensaje_descriptivo"
+
+#ver registro de commits
+git log
+
+```
+
+
+
+
 ### Clonar repositorio remoto en directorio local.
 
 ```pwsh
