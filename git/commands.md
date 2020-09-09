@@ -37,4 +37,17 @@ git branch -a
 git checkout origin/<branch_name>
 # clone remote branch
 git checkout <remote_branch_name> #git will create a local tracking branch
+```
 
+### Cambiar url de repositorio remoto
+```pwsh
+#Set upstream url
+git remote --set-upstream <nombre_rep_remoto> <url> # Si no se especifica protocolo, asume SSH
+```
+```pwsh
+
+# quick view to a branch
+git checkout origin/<branch_name>
+# clone remote branch
+git checkout <remote_branch_name> #git will create a local tracking branch
+```
